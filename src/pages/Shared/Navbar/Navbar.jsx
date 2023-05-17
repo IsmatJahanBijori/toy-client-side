@@ -13,7 +13,7 @@ const Navbar = () => {
                         <img src="https://i.ibb.co/ctkd2qN/art.png" className='h-10' alt="" />
                     </label>
                     {/* small device*/}
-                    <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 lg:hidden bg-slate-300  ">
+                    <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 lg:hidden bg-slate-300 font-serif text-xxl">
                         <Link to='/'>Home</Link>
                         <Link to='allToys'>All Toys</Link>
                         <Link to='/myToys'>My Toys</Link>
@@ -21,19 +21,19 @@ const Navbar = () => {
                         <Link to="/blog">Blog</Link>
                     </ul>
                 </div>
-                <h1 className="btn btn-ghost normal-case text-xl">ToyJoy</h1>
+                <h1 className="btn btn-ghost normal-case font-serif text-2xl">ToyJoy</h1>
             </div>
-            <div className="navbar-center lg:flex">
+            <div className="navbar-center hidden lg:flex">
                 {/* large device*/}
-                <ul className="menu menu-horizontal hidden px-1">
-                    <Link to='/'>Home</Link>
-                    <Link to='allToys'>All Toys</Link>
-                    <Link to='/myToys'>My Toys</Link>
-                    <Link to="/addToy">Add A Toy</Link>
-                    <Link to="/blog">Blog</Link>
+                <ul className="menu menu-horizontal px-1 font-serif text-2xl">
+                    <Link className='mr-5' to='/'>Home</Link>
+                    <Link className='mr-5'  to='allToys'>All Toys</Link>
+                    <Link className='mr-5'  to='/myToys'>My Toys</Link>
+                    <Link className='mr-5'  to="/addToy">Add A Toy</Link>
+                    <Link className='mr-5'  to="/blog">Blog</Link>
                 </ul>
             </div>
-            <div className="navbar-end">
+            <div className="navbar-end  font-serif text-2xl">
                 <Link to='/login' className="btn">Login</Link>
             </div>
             <div className="dropdown dropdown-end">

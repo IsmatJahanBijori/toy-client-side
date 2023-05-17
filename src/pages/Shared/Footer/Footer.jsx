@@ -8,29 +8,29 @@ const Footer = () => {
             <footer className="footer p-10 bg-slate-200 text-base-content rounded-t-lg">
                 <div>
                     <img src="https://i.ibb.co/ctkd2qN/art.png" className='h-20' alt="" />
-                    <p>Toy Joy Online Ltd.<br />Providing reliable tech since 2023</p>
+                    <p className='font-serif text-2xl'>Toy Joy Online Ltd.<br />Providing reliable tech since 2023</p>
                 </div>
-                <div>
+                <div className='font-serif'>
                     <span className="footer-title">Services</span>
                     <a className="link link-hover">Branding</a>
                     <a className="link link-hover">Design</a>
                     <a className="link link-hover">Marketing</a>
                     <a className="link link-hover">Advertisement</a>
                 </div>
-                <div>
+                <div className='font-serif'>
                     <span className="footer-title">Company</span>
                     <a className="link link-hover">About us</a>
                     <a className="link link-hover">Contact: </a>
                     <li>Email: toyjoy@gmail.com</li>
                     <li>Phone no: 01911108125</li>
                 </div>
-                <div>
+                <div className='font-serif'>
                     <span className="footer-title">Legal</span>
                     <a className="link link-hover">Terms of use</a>
                     <a className="link link-hover">Privacy policy</a>
                     <a className="link link-hover">Cookie policy</a>
                 </div>
-                <div>
+                <div className='font-serif'>
                     <span className="footer-title">Social</span>
                     <div className="flex flex-row justify-center p-4">
                         <Link href='' className='me-4 text-reset '>
@@ -55,7 +55,7 @@ const Footer = () => {
                 </div>
             </footer>
             <footer className="footer footer-center p-4 bg-slate-200 text-base-content pb-10 rounded-b-lg">
-                <div>
+                <div className='font-serif text-xl'>
                     <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
                 </div>
             </footer>
