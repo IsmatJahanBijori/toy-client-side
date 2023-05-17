@@ -5,7 +5,7 @@ import { FaFacebook, FaGithub, FaGoogle, FaInstagram, FaLinkedin, FaTwitter } fr
 const Footer = () => {
     return (
         <div>
-            <footer className="footer p-10 bg-slate-200 text-base-content rounded-t-lg">
+            <footer className="footer p-10 bg-slate-200 text-base-content rounded-t-lg max-h-screen">
                 <div>
                     <img src="https://i.ibb.co/ctkd2qN/art.png" className='h-20' alt="" />
                     <p className='font-serif text-2xl'>Toy Joy Online Ltd.<br />Providing reliable tech since 2023</p>
