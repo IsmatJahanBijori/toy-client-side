@@ -1,11 +1,9 @@
-import img1 from '../../../assets/8693830034899_2 (1).jpg'
-import img2 from '../../../assets/91GokfOZLVL._SL1500_-284x300.jpg'
-import img3 from '../../../assets/1524499262-crayola-inspiration-kids-art-kit-1524499234.jpg'
+
 const Gallery = () => {
     return (
         <div className='grid grid-cols-1 md:grid-cols-3 mb-20 px-28'>
-            <div className="card w-96 bg-slate-100 shadow-xl">
-                <figure className='p-5'><img src={img1} alt="img" /></figure>
+            <div className="card w-96 bg-slate-100 shadow-xl  border-base-300 border-2">
+                <figure className='p-5'><img src="https://i.ibb.co/vzC4vf4/8693830034899-2-1.webp" alt="img" /></figure>
                 <div className="card-body font-serif text-xl ">
                     <h2 className="card-title text-black">Art Craft Ice Cream Set Play Dough 280gm Toy magic</h2>
                     <div className='text-black'>
@@ -16,10 +14,10 @@ const Gallery = () => {
                     </div>
                 </div>
             </div>
-            <div className="card w-96 bg-slate-100 shadow-xl">
-                <figure className='p-5'><img src={img2} alt="img" /></figure>
-                <div className="card-body pt-10">
-                    <h2 className="card-title font-serif text-xl ">Button Art</h2>
+            <div className="card w-96 bg-slate-100 shadow-xl  border-base-300 border-2">
+                <figure className='p-5'><img src="https://i.ibb.co/P5DGKTn/91-Gokf-OZLVL-SL1500-284x300.jpg" alt="img" /></figure>
+                <div className="card-body flex">
+                    <h2 className="card-title font-serif text-xl mt-auto">Button Art</h2>
                     <div className='font-serif text-xl'>
                         <p>24 different colorful pattern-shaped Sponges to make pictures
                             <br />
@@ -37,8 +35,8 @@ const Gallery = () => {
                     </div>
                 </div>
             </div>
-            <div className="card w-96 bg-slate-100 shadow-xl">
-                <figure className='p-5'><img src={img3} alt="img" /></figure>
+            <div className="card w-96 bg-slate-100 shadow-xl border-base-300 border-2">
+                <figure className='p-5'><img src="https://i.ibb.co/YpGHRcL/1524499262-crayola-inspiration-kids-art-kit-1524499234.jpg" alt="img" /></figure>
                 <div className="card-body font-serif text-xl ">
                     <h2 className="card-title">Kids Arts and Crafts Kits</h2>
                     <p>Children have endless creativity — and its up to us to help them unleash it in fun ways! Craft kits for kids can help them feel productive and artistic, and they will feel accomplished when they have a finished product at the end to show off! Check out our favorite art kits for kids to help your child feel like the next Picasso.</p>

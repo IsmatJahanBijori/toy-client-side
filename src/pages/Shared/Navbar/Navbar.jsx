@@ -50,7 +50,7 @@ const Navbar = () => {
                     user ?
                         <div className='flex flex-row'>
                             <div>
-                                <img src="https://i.ibb.co/PTmWF3d/profile.jpg" className='h-10 rounded-lg' />
+                                <img src="https://i.ibb.co/PTmWF3d/profile.jpg" className='h-10 rounded-lg mr-3' />
                             </div>
                             <div>
                                 <button onClick={handleLogout} className='btn'>Logout</button>
