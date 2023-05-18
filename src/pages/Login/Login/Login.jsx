@@ -1,15 +1,15 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useContext, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../AuthProvider/AuthProvider';
 
 const Login = () => {
-    const { logIn, googleLogin, loading } = useContext(AuthContext)
+    const { logIn, googleLogin } = useContext(AuthContext)
     const [error, setError] = useState('')
     const navigate = useNavigate()
-    if (loading) {
-        return <progress className="progress progress-primary w-56" value="100" max="100"></progress>
-    }
+    let location = useLocation();
+    
+    let from = location.state?.from?.pathname || "/";
     const handleSignIn = event => {
         event.preventDefault()
         // setError('')
@@ -23,7 +23,7 @@ const Login = () => {
             .then(result => {
                 const loggedUser = result.user
                 console.log(loggedUser)
-                // navigate(from, { replace: true });
+                navigate(from, { replace: true });
             })
             .catch(error => {
                 console.log(error.message)
@@ -37,7 +37,8 @@ const Login = () => {
         googleLogin()
             .then(result => {
                 console.log(result.user)
-                navigate('/')
+                // navigate('/')
+                navigate(from, { replace: true });
             })
             .catch(error => console.log(error.message))
     }
@@ -55,7 +56,7 @@ const Login = () => {
                             <label className="label">
                                 <span className="label-text">Email</span>
                             </label>
-                            <input type="email" placeholder="Enter your email" name="email" className="input input-bordered" />
+                            <input type="text" placeholder="Enter your email" name="email" className="input input-bordered" />
                         </div>
                         <div className="form-control">
                             <label className="label">
