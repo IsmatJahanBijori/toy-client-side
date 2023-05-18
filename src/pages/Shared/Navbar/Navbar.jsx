@@ -17,7 +17,7 @@ const Navbar = () => {
             .catch(error => console.log(error.message))
     }
     return (
-        <div className="navbar bg-slate-200 rounded-md" style={{overflowX: 'hidden'}}>
+        <div className="navbar bg-slate-200 rounded-md" style={{ overflowX: 'hidden' }}>
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost">
@@ -25,10 +25,14 @@ const Navbar = () => {
                     </label>
                     {/* small device*/}
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 shadow rounded-box w-52 lg:hidden bg-slate-300 font-serif text-xxl">
-                        <Link to='/'>Home</Link>
+                        <Link className='text-black' to='/'>Home</Link>
                         <Link to='allToys'>All Toys</Link>
-                        <Link to='/myToys'>My Toys</Link>
-                        <Link to="/addToy">Add A Toy</Link>
+                        {
+                            user ? <div>
+                                <Link to='/myToys'>My Toys</Link>
+                                <Link to="/addToy">Add A Toy</Link>
+                            </div> : ''
+                        }
                         <Link to="/blog">Blog</Link>
                         <Link to="/login">Login</Link>
                     </ul>
@@ -40,8 +44,12 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal px-1 font-serif text-2xl">
                     <Link className='mr-5' to='/'>Home</Link>
                     <Link className='mr-5' to='allToys'>All Toys</Link>
-                    <Link className='mr-5' to='/myToys'>My Toys</Link>
-                    <Link className='mr-5' to="/addToy">Add A Toy</Link>
+                    {
+                        user ? <div>
+                            <Link className='mr-5' to='/myToys'>My Toys</Link>
+                            <Link className='mr-5' to="/addToy">Add A Toy</Link>
+                        </div> : ''
+                    }
                     <Link className='mr-5' to="/blog">Blog</Link>
                 </ul>
             </div>
