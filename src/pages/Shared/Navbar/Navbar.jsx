@@ -60,7 +60,7 @@ const Navbar = () => {
                     user ?
                         <div className='flex flex-row'>
                             <div className="tooltip tooltip-left" data-tip={user.displayName}>
-                                <img src="https://i.ibb.co/PTmWF3d/profile.jpg" className='h-10 rounded-lg mr-3' />
+                                <img src={user.photoURL} className='h-10 rounded-lg mr-3' />
                             </div>
                             <div>
                                 <button onClick={handleLogout} className='btn'>Logout</button>
@@ -76,13 +76,5 @@ const Navbar = () => {
 
 
 export default Navbar;
-{/*<div className="dropdown dropdown-end">
-                        <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                            <div className="w-10 rounded-full">
-                                <img src="https://i.ibb.co/PTmWF3d/profile.jpg" />
-                            </div>
-                        </label>
-                        <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            <Link to='/logout'>Logout</Link>
-                        </ul>
-            </div>*/}
+
+// https://i.ibb.co/PTmWF3d/profile.jpg
