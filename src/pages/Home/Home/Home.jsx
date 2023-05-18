@@ -2,12 +2,16 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import Gallery from '../Gallery/Gallery';
+import SaleSection from '../SaleSection/SaleSection';
+import Trending from '../Trending/Trending';
 
 const Home = () => {
     return (
         <div>
             <Banner/>
             <Gallery/>
+            <SaleSection/>
+            <Trending/>
         </div>
     );
 };

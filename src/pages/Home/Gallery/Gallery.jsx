@@ -41,7 +41,8 @@ const Gallery = () => {
                     <h2 className="card-title">Kids Arts and Crafts Kits</h2>
                     <p>Children have endless creativity — and its up to us to help them unleash it in fun ways! Craft kits for kids can help them feel productive and artistic, and they will feel accomplished when they have a finished product at the end to show off! Check out our favorite art kits for kids to help your child feel like the next Picasso.</p>
                 </div>
-            </div></div>
+            </div>
+        </div>
 
     );
 };
