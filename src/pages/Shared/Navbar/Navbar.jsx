@@ -8,11 +8,13 @@ import { AuthContext } from '../../../AuthProvider/AuthProvider';
 // Home, All Toys, My Toys, Add A Toy, Blogs
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext)
+    // const navigate=useNavigate()
     const handleLogout = () => {
         logOut()
             .then(result => {
                 const user = result.user
                 console.log(user)
+                // navigate('/')
             })
             .catch(error => console.log(error.message))
     }
@@ -57,7 +59,7 @@ const Navbar = () => {
                 {
                     user ?
                         <div className='flex flex-row'>
-                            <div>
+                            <div className="tooltip tooltip-left" data-tip={user.displayName}>
                                 <img src="https://i.ibb.co/PTmWF3d/profile.jpg" className='h-10 rounded-lg mr-3' />
                             </div>
                             <div>
