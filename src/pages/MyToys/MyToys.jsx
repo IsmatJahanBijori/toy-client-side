@@ -23,12 +23,6 @@ const MyToys = () => {
             title: 'Are you sure?',
             text: "You won't be able to revert this!",
             icon: 'warning',
-            showClass: {
-                popup: 'animate__animated animate__fadeInDown'
-            },
-            hideClass: {
-                popup: 'animate__animated animate__fadeOutUp'
-            },
             showCancelButton: true,
             confirmButtonColor: '#3085d6',
             cancelButtonColor: '#d33',
@@ -48,6 +42,8 @@ const MyToys = () => {
                                 'success'
                             )
                         }
+                        const remToy=myToys.filter(singleToy=> singleToy._id!==_id)
+                        setMyToys(remToy)
                     })
             }
         })
