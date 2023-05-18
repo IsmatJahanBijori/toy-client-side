@@ -5,7 +5,7 @@ import { FaFacebook, FaGithub, FaGoogle, FaInstagram, FaLinkedin, FaTwitter } fr
 const Footer = () => {
     return (
         <div>
-            <footer className="footer p-10 bg-slate-200 text-base-content rounded-t-lg max-h-screen">
+            <footer className="footer p-10 bg-slate-200 text-base-content rounded-t-lg">
                 <div>
                     <img src="https://i.ibb.co/ctkd2qN/art.png" className='h-20' alt="" />
                     <p className='font-serif text-2xl'>Toy Joy Online Ltd.<br />Providing reliable tech since 2023</p>
@@ -54,7 +54,7 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
-            <footer className="footer footer-center p-4 bg-slate-200 text-base-content pb-10 rounded-b-lg">
+            <footer className="footer footer-center mt-0 bg-slate-200 text-base-content pb-10 rounded-b-lg">
                 <div className='font-serif text-xl'>
                     <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
                 </div>

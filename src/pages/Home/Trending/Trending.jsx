@@ -1,7 +1,7 @@
 
 const Trending = () => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 mb-20 px-28">
+        <div className="grid grid-cols-1 md:grid-cols-3 mb-20 mx-5 md:px-28">
             <div className="card w-96 bg-base-100 shadow-xl font-serif text-lg">
                 <figure><img src="https://i.ibb.co/yfMQVcV/d1.jpg" alt="Shoes" /></figure>
                 <div className="card-body">
