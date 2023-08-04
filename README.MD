@@ -30,3 +30,5 @@
 ### npm install --save aos@next
 ### npm i react-parallax
 ### npm install react-fast-marquee --save
+
+### added react tab using chatgpt

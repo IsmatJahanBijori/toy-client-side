@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Sketching Pencils Set",
+      "price": 15.99,
+      "rating": 4.7,
+      "picture": "https://i.ibb.co/hWMbsyY/pensc.webp"
+    },
+    {
+      "name": "Watercolor Paint Set",
+      "price": 19.99,
+      "rating": 4.9,
+      "picture": "https://i.ibb.co/Fx5yMCw/paint.jpg"
+    },
+    {
+      "name": "Sketching Pencils Set",
+      "price": 15.99,
+      "rating": 4.7,
+      "picture": "https://i.ibb.co/hWMbsyY/pensc.webp"
+    },
+    {
+      "name": "Watercolor Paint Set",
+      "price": 19.99,
+      "rating": 4.9,
+      "picture": "https://i.ibb.co/Fx5yMCw/paint.jpg"
+    }
+  ]
+  

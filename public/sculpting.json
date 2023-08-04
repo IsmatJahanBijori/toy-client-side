@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Modeling Clay Kit",
+      "price": 14.99,
+      "rating": 4.3,
+      "picture": "https://i.ibb.co/TvFydj4/clay.webp"
+    },
+    {
+      "name": "Pottery Wheel",
+      "price": 39.99,
+      "rating": 4.8,
+      "picture": "https://i.ibb.co/yRN7T5X/clay2.webp"
+    },
+    {
+      "name": "Modeling Clay Kit",
+      "price": 14.99,
+      "rating": 4.3,
+      "picture": "https://i.ibb.co/TvFydj4/clay.webp"
+    },
+    {
+      "name": "Pottery Wheel",
+      "price": 39.99,
+      "rating": 4.8,
+      "picture": "https://i.ibb.co/yRN7T5X/clay2.webp"
+    }
+  ]
+  
