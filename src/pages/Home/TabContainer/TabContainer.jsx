@@ -35,7 +35,7 @@ const TabContainer = () => {
     return (
         <div>
             <Tabs className="mb-20 md:m-28 font-serif">
-                <TabList className="text-2xl font-semibold mb-3">
+                <TabList className="text-2xl ml-10 font-semibold mb-3">
                     <Tab>Jewellary Making</Tab>
                     <Tab>Drawing Supplies</Tab>
                     <Tab>Sculpting</Tab>

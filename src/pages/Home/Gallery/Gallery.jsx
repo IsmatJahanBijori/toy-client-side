@@ -2,7 +2,7 @@
 const Gallery = () => {
     return (
         <div className='grid grid-cols-1 px-10 md:px-0 md:grid-cols-3 mb-20 md:ml-32 md:pl-20'>
-            <div className="card w-96 bg-slate-100 shadow-xl  border-base-300 border-2 mb-5">
+            <div className="card w-80 md:w-96 bg-slate-100 shadow-xl  border-base-300 border-2 mb-5">
                 <figure className='p-5'><img src="https://i.ibb.co/vzC4vf4/8693830034899-2-1.webp" alt="img" /></figure>
                 <div className="card-body font-serif text-xl ">
                     <h2 className="card-title text-black">Art Craft Ice Cream Set Play Dough 280gm Toy magic</h2>
@@ -14,7 +14,7 @@ const Gallery = () => {
                     </div>
                 </div>
             </div>
-            <div className="card w-96 bg-slate-100 shadow-xl  border-base-300 border-2 mb-5">
+            <div className="card w-80 md:w-96 bg-slate-100 shadow-xl  border-base-300 border-2 mb-5">
                 <figure className='p-5'><img src="https://i.ibb.co/P5DGKTn/91-Gokf-OZLVL-SL1500-284x300.jpg" alt="img" /></figure>
                 <div className="card-body flex">
                     <h2 className="card-title font-serif text-xl mt-auto">Button Art</h2>
@@ -35,7 +35,7 @@ const Gallery = () => {
                     </div>
                 </div>
             </div>
-            <div className="card w-96 bg-slate-100 shadow-xl border-base-300 border-2 mb-5">
+            <div className="card w-80 md:w-96 bg-slate-100 shadow-xl border-base-300 border-2 mb-5">
                 <figure className='p-5'><img src="https://i.ibb.co/YpGHRcL/1524499262-crayola-inspiration-kids-art-kit-1524499234.jpg" alt="img" /></figure>
                 <div className="card-body font-serif text-xl ">
                     <h2 className="card-title">Kids Arts and Crafts Kits</h2>
