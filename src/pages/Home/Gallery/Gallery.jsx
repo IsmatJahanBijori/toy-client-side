@@ -1,14 +1,14 @@
 
 const Gallery = () => {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-3 mb-20 mx-5 md:px-28'>
+        <div className='grid grid-cols-1 px-10 md:px-0 md:grid-cols-3 mb-20 md:ml-32 md:pl-20'>
             <div className="card w-96 bg-slate-100 shadow-xl  border-base-300 border-2 mb-5">
                 <figure className='p-5'><img src="https://i.ibb.co/vzC4vf4/8693830034899-2-1.webp" alt="img" /></figure>
                 <div className="card-body font-serif text-xl ">
                     <h2 className="card-title text-black">Art Craft Ice Cream Set Play Dough 280gm Toy magic</h2>
                     <div className='text-black'>
                         <p>Play dough play lets kids take the lid off their imaginations and explore their creativity.</p>
-                        <p>Sets offer all kinds of open-ended play</p>
+                        <p>Sets offer all kinds of open-ended play.</p>
                         <p>This set contributes to the development of your child dexterity and imagination.</p>
                         <p>Comes with 5 pieces, 280 gr of play dough10 Pieces</p>
                     </div>
