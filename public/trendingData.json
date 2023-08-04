@@ -1,0 +1,82 @@
+ [
+      {
+        "name": "Beaded Bracelet Kit",
+        "subtitle": "Jewelry Making",
+        "description": "Create beautiful bracelets with this beaded bracelet kit. Perfect for craft enthusiasts.",
+        "price": 19.99,
+        "image": "https://i.ibb.co/yfMQVcV/d1.jpg"
+      },
+      {
+        "name": "Earring Making Set",
+        "subtitle": "Jewelry Making",
+        "description": "Design unique earrings with this earring making set. Express your style with ease.",
+        "price": 14.99,
+        "image": "https://i.ibb.co/YpGHRcL/1524499262-crayola-inspiration-kids-art-kit-1524499234.jpg"
+      },
+      {
+        "name": "Sketching Pencils Set",
+        "subtitle": "Drawing Supplies",
+        "description": "Unleash your creativity with this set of high-quality sketching pencils. Ideal for artists.",
+        "price": 24.99,
+        "image": "https://i.ibb.co/YkWXGpw/images.jpg"
+      },
+      {
+        "name": "Watercolor Paint Set",
+        "subtitle": "Drawing Supplies",
+        "description": "Explore the world of watercolors with this vibrant paint set. Perfect for beginners.",
+        "price": 19.99,
+        "image": "https://i.ibb.co/yfMQVcV/d1.jpg"
+      },
+      {
+        "name": "Modeling Clay Kit",
+        "subtitle": "Sculpting",
+        "description": "Shape, mold, and create with this versatile modeling clay kit. Perfect for sculptors.",
+        "price": 29.99,
+        "image": "https://i.ibb.co/YpGHRcL/1524499262-crayola-inspiration-kids-art-kit-1524499234.jpg"
+      },
+      {
+        "name": "Pottery Wheel",
+        "subtitle": "Sculpting",
+        "description": "Discover the art of pottery with this pottery wheel. Ideal for aspiring potters.",
+        "price": 39.99,
+        "image": "https://i.ibb.co/YkWXGpw/images.jpg"
+      },
+      {
+        "name": "Watercolor Paint Set",
+        "subtitle": "Creative Sculpting Kit",
+        "description": "Shape, mold, and create with this sculpting kit. Develop your sculpting skills with ease.",
+        "price": 24.99,
+        "image": "https://i.ibb.co/YkWXGpw/images.jpg"
+      },
+      {
+        "name": "Sketching Pencils Set",
+        "subtitle": "Artistic Inspiration Kit",
+        "description": "Unleash your creativity with this all-in-one art kit. Perfect for kids and beginners.",
+        "price": 19.99,
+        "image": "https://i.ibb.co/yfMQVcV/d1.jpg"
+      },
+      {
+        "name": "Pottery Wheel",
+        "subtitle": "Colorful Drawing Set",
+        "description": "Explore the world of colors with this vibrant drawing set. Ideal for sketching and coloring.",
+        "price": 14.99,
+        "image": "https://i.ibb.co/YpGHRcL/1524499262-crayola-inspiration-kids-art-kit-1524499234.jpg"
+      },
+      {
+        "name": "Modeling Clay Kit",
+        "subtitle": "Creative Sculpting Kit",
+        "description": "Shape, mold, and create with this sculpting kit. Develop your sculpting skills with ease.",
+        "price": 24.99,
+        "image": "https://i.ibb.co/YkWXGpw/images.jpg"
+      },
+      {
+        "name": "Watercolor Paint Set",
+        "subtitle": "Artistic Inspiration Kit",
+        "description": "Unleash your creativity with this all-in-one art kit. Perfect for kids and beginners.",
+        "price": 19.99,
+        "image": "https://i.ibb.co/yfMQVcV/d1.jpg"
+      }
+    ]
+      
+  
+  

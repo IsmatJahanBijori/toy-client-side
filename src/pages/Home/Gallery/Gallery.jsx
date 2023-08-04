@@ -1,7 +1,7 @@
 
 const Gallery = () => {
     return (
-        <div className='grid grid-cols-1 px-10 md:px-0 md:grid-cols-3 mb-20 md:ml-32 md:pl-20'>
+        <div className='grid grid-cols-1 pl-[25px] md:px-0 md:grid-cols-3 mb-20 md:ml-32 md:pl-20'>
             <div className="card w-80 md:w-96 bg-slate-100 shadow-xl  border-base-300 border-2 mb-5">
                 <figure className='p-5'><img src="https://i.ibb.co/vzC4vf4/8693830034899-2-1.webp" alt="img" /></figure>
                 <div className="card-body font-serif text-xl ">

@@ -1,53 +1,37 @@
-
+import { useState } from "react";
+import Marquee from "react-fast-marquee";
 const Trending = () => {
-    return (
-        <div className="grid grid-cols-1 md:grid-cols-3 mb-20 mx-5 md:px-28">
-            <div className="card w-96 bg-base-100 shadow-xl font-serif text-lg">
-                <figure><img src="https://i.ibb.co/yfMQVcV/d1.jpg" alt="Shoes" /></figure>
-                <div className="card-body">
-                    <h2 className="card-title">
-                        Shoes!
-                        <div className="badge badge-secondary">NEW</div>
-                    </h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div className="card-actions justify-end">
-                        <div className="badge badge-primary p-3">Fashion</div>
-                        <div className="badge badge-info p-3">Products</div>
-                    </div>
-                </div>
-            </div>
-            <div className="card w-96 bg-base-100 shadow-xl font-serif text-lg">
-                <figure><img src="https://i.ibb.co/YpGHRcL/1524499262-crayola-inspiration-kids-art-kit-1524499234.jpg" alt="Shoes" /></figure>
-                <div className="card-body">
-                    <h2 className="card-title">
-                        Shoes!
-                        <div className="badge badge-secondary">NEW</div>
-                    </h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div className="card-actions justify-end">
-                        <div className="badge badge-primary p-3">Fashion</div>
-                        <div className="badge badge-info p-3">Products</div>
-                    </div>
-                </div>
-            </div>
 
-            <div className="card w-96 bg-base-100 shadow-xl font-serif text-lg">
-                <figure><img src="https://i.ibb.co/YkWXGpw/images.jpg" alt="Shoes" /></figure>
-                <div className="card-body">
-                    <h2 className="card-title">
-                        Shoes!
-                        <div className="badge badge-secondary">NEW</div>
-                    </h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div className="card-actions justify-end">
-                        <div className="badge badge-primary p-3">Fashion</div>
-                        <div className="badge badge-info p-3">Products</div>
+    const [data, setData] = useState([])
+    useState(() => {
+        fetch('trendingData.json').then(res => res.json()).then(Data => setData(Data))
+    }, [])
+    return (
+        <Marquee>
+            {
+                data.map(dt =>
+                    <div className="card w-96 ml-4 h-[300px] md:h-[500px] my-10 md:my-20 bg-base-100 shadow-xl font-serif text-lg">
+                   {/* //TODO: small device e image chikon hye gese*/}
+                        <figure><img src={dt.image} alt="Shoes" className="w-full p-3 md:h-40 md:object-cover rounded-md mb-4"/></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">
+                                {dt.name}
+                                <div className="badge badge-secondary">NEW</div>
+                            </h2>
+                            <p>{dt.subtitle}</p>
+                            <p>{dt.description}</p>
+                            <p>{dt.price}</p>
+                            <div className="card-actions justify-end">
+                                <div className="badge badge-primary p-3">Fashion</div>
+                                <div className="badge badge-info p-3">Products</div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
+                )
+            }
+        </Marquee>
     );
 };
 
 export default Trending;
-// <a href="https://imgbb.com/"><img src="https://i.ibb.co/YkWXGpw/images.jpg" alt="images" border="0"></a>
+// className="grid grid-cols-1 md:grid-cols-3 mb-20 mx-5 md:px-28"

@@ -46,7 +46,7 @@ const TabContainer = () => {
                         {
                             data1.map(dt1 =>
 
-                                <div className="bg-slate-100 ml-10 mb-5 w-[300px] md:w-[400px] shadow-md rounded-lg p-4 transition-transform duration-300 transform hover:translate-y-[-10px] text-xl" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                                <div className="bg-[#D4E2D4] ml-10 mb-5 w-[300px] md:w-[400px] shadow-md rounded-lg p-4 transition-transform duration-300 transform hover:translate-y-[-10px] text-xl" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                                     <img src={dt1.picture} alt="Card Image" className="w-full h-40 object-cover rounded-md mb-4" />
                                     <div className={`transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'} mb-2`}>
                                         <h3 className="text-xl font-bold mb-2">{dt1.name}</h3>
