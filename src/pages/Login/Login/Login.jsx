@@ -8,16 +8,19 @@ const Login = () => {
     const [error, setError] = useState('')
     const navigate = useNavigate()
     let location = useLocation();
-    
+
     let from = location.state?.from?.pathname || "/";
     const handleSignIn = event => {
         event.preventDefault()
         // setError('')
         const form = event.target;
-        const email = form.email.value;
-        const password = form.password.value;
-        console.log(email, password)
+        const email = form.email.value
+        const password = form.password.value
+        // console.log(email, password)
         // email, password
+        // const email = event.target.email.value
+        // const password = event.target.password.value
+        // console.log(email, password)
 
         logIn(email, password)
             .then(result => {
@@ -44,19 +47,19 @@ const Login = () => {
     }
     return (
         <div>
-            <form onClick={handleSignIn} className="hero-content flex-col lg:flex-row my-10 font-serif">
+            <div className="hero-content flex-col lg:flex-row my-10 font-serif">
                 <div className="text-center lg:text-left w-1/2">
                     <h1 className="text-5xl font-bold mb-5">Login</h1>
-                   
-                        <img src="https://i.ibb.co/1TDXLdb/download-1.jpg" className='h-full w-full' alt=""/>
+
+                    <img src="https://i.ibb.co/1TDXLdb/download-1.jpg" className='h-full w-full' alt="" />
                 </div>
                 <div className="card max-w-sm shadow-2xl  w-1/2">
-                    <div className="card-body">
+                    <form  onClick={handleSignIn} className="card-body">
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Email</span>
                             </label>
-                            <input type="text" placeholder="Enter your email" name="email" className="input input-bordered" />
+                            <input type="email" placeholder="Enter your email" name="email" className="input input-bordered" />
                         </div>
                         <div className="form-control">
                             <label className="label">
@@ -71,12 +74,12 @@ const Login = () => {
                             <button onClick={handleGoogleLogin} className="btn btn-primary">Google Login</button>
                         </div>
                         <p><small>New To this site? Go to <Link to='/register'>Registration</Link></small></p>
-                    </div>
+                    </form>
                 </div>
                 <div className='p-5'>
                     <p className='bg-red-700'>{error}</p>
                 </div>
-            </form>
+            </div>
             {/*<div className='p-5'>
         <p className='bg-red-700'>{error}</p>
     </div>*/}

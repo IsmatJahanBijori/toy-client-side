@@ -25,3 +25,8 @@
 ### Server Side Github Link: https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-server-side-IsmatJahanBijori
 ### Server Side Live Link: https://toy-server-side.vercel.app
 
+
+### npm install swiper --save
+### npm install --save aos@next
+### npm i react-parallax
+### npm install react-fast-marquee --save
