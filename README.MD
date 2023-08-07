@@ -20,9 +20,9 @@
 ### 404 page created
 
 ### LIVE SITE LINK
-### Client Side Github Link: https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-client-side-IsmatJahanBijori
-### Client Side Live Link: https://toy-client-af6d0.web.app
-### Server Side Github Link: https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-server-side-IsmatJahanBijori
+### Client Side Github Link: https://github.com/IsmatJahanBijori/toy-client-side
+### Client Side Live Link: https://tangerine-pastelito-b53ca0.netlify.app
+### Server Side Github Link: https://github.com/IsmatJahanBijori/toy-server-side
 ### Server Side Live Link: https://toy-server-side.vercel.app
 
 
