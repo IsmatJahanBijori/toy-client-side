@@ -9,6 +9,7 @@ import Description from '../Description/Description';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Stat from '../Stat/Stat';
+import TermsAndConditions from '../TermsAndConditions/TermsAndConditions';
 
 const Home = () => {
     useEffect(() => {
@@ -24,6 +25,7 @@ const Home = () => {
             <Trending/>
             <Description/>
             <Stat/>
+            <TermsAndConditions/>
         </div>
     );
 };

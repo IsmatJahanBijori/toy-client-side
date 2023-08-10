@@ -3,7 +3,7 @@ import React from 'react';
 const Stat = () => {
     return (
         
-        <div className="stats my-20 md:px-0 ml-10 md:ml-32 text-xl bg-base-200 w-[300px] md:w-[1700px] text-center shadow-xl p-3 mb-20 mx-auto">
+        <div className="stats font-serif my-20 md:px-0 ml-10 md:ml-32 text-xl bg-base-200 w-[300px] md:w-[1700px] text-center shadow-xl p-3 mb-20 mx-auto">
         {/**TODO: ei box er main div ta small theke sore na */}
             <div className="stat">
                 <div className="stat-figure text-primary">

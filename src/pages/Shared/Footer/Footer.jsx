@@ -5,7 +5,7 @@ import { FaFacebook, FaGithub, FaGoogle, FaInstagram, FaLinkedin, FaTwitter } fr
 const Footer = () => {
     return (
         <div>
-            <footer className="footer p-10 bg-slate-200 text-base-content rounded-t-lg">
+            <footer className="footer p-10 bg-slate-200 text-base-content rounded-t-lg text-lg">
                 <div>
                     <img src="https://i.ibb.co/ctkd2qN/art.png" className='h-20' alt="" />
                     <p className='font-serif text-2xl'>Toy Joy Online Ltd.<br />Providing reliable tech since 2023</p>
@@ -16,6 +16,13 @@ const Footer = () => {
                     <a className="link link-hover">Design</a>
                     <a className="link link-hover">Marketing</a>
                     <a className="link link-hover">Advertisement</a>
+                </div>
+                <div className='font-serif'>
+                    <span className="footer-title">Pages</span>
+                    <Link className="link link-hover" to="/toys">All Toys</Link>
+                    <Link className="link link-hover" to="/myToys">My Toys</Link>
+                    <Link className="link link-hover" to="/addToy">Add A Toy</Link>
+                    <Link className="link link-hover" to="/blog">Blog</Link>
                 </div>
                 <div className='font-serif'>
                     <span className="footer-title">Company</span>
@@ -56,7 +63,7 @@ const Footer = () => {
             </footer>
             <footer className="footer footer-center mt-0 bg-slate-200 text-base-content pb-10 rounded-b-lg">
                 <div className='font-serif text-xl'>
-                    <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+                    <p>Copyright © 2023 - All right reserved by ToyJoy Online Ltd</p>
                 </div>
             </footer>
         </div>

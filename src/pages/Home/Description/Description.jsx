@@ -15,10 +15,26 @@ const Description = () => {
 
             {/**right side */}
             <div className='font-serif w-full md:w-[850px]' data-aos="fade-right">
-                <h2 className='font-semibold text-2xl'>Welcome to Toylandia</h2>
+                <h2 className='font-semibold text-2xl text-center'>Welcome to ToyJoy</h2>
                 <p className='text-lg text-justify'>
-                    At Toylandia, we offer a delightful array of toys that spark creativity and bring joy to kids
-                    of all ages. Whether it's jewelry making, drawing supplies, or sculpting wonders, Toylandia
+                    At ToyJoy, we offer a delightful array of toys that spark creativity and bring joy to kids
+                    of all ages. Whether it's jewelry making, drawing supplies, or sculpting wonders, ToyJoy
+                    has the perfect toys for your little ones. Our magical world is designed to inspire young minds
+                    and foster their imagination. Join us on this extraordinary adventure, where playtime is filled
+                    with endless fun and cherished memories! At ToyJoy, we offer a delightful array of toys that spark creativity and bring joy to kids
+                    of all ages. Whether it's jewelry making, drawing supplies, or sculpting wonders, ToyJoy
+                    has the perfect toys for your little ones. Our magical world is designed to inspire young minds
+                    and foster their imagination. Join us on this extraordinary adventure, where playtime is filled
+                    with endless fun and cherished memories! At ToyJoy, we offer a delightful array of toys that spark creativity and bring joy to kids
+                    of all ages. Whether it's jewelry making, drawing supplies, or sculpting wonders, ToyJoy
+                    has the perfect toys for your little ones. Our magical world is designed to inspire young minds
+                    and foster their imagination. Join us on this extraordinary adventure, where playtime is filled
+                    with endless fun and cherished memories! At ToyJoy, we offer a delightful array of toys that spark creativity and bring joy to kids
+                    of all ages. Whether it's jewelry making, drawing supplies, or sculpting wonders, ToyJoy
+                    has the perfect toys for your little ones. Our magical world is designed to inspire young minds
+                    and foster their imagination. Join us on this extraordinary adventure, where playtime is filled
+                    with endless fun and cherished memories! At ToyJoy, we offer a delightful array of toys that spark creativity and bring joy to kids
+                    of all ages. Whether it's jewelry making, drawing supplies, or sculpting wonders, ToyJoy
                     has the perfect toys for your little ones. Our magical world is designed to inspire young minds
                     and foster their imagination. Join us on this extraordinary adventure, where playtime is filled
                     with endless fun and cherished memories!
